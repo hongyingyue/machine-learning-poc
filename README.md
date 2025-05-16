@@ -12,6 +12,5 @@ Welcome to contribute.
 - [LLM Agent for code](./llm_code_agent/)
 - [LLM fine tuning](./llm_fine_tuning/)
 - [Chat with sql](./chat_with_sql/)
-- [Time series lstm](./time_series_lstm/)
-- [Time series transformer](./time_series_transformer/)
+- [Time series lstm/transformer](./time_series/)
 - [Map with R/Python](./snippets/)
