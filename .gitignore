@@ -18,3 +18,7 @@
 /weights/checkpoint
 /weights/checkpoint.data-00000-of-00001
 /weights/checkpoint.index
+
+/llm_rag/app/uploaded_files
+
+.env

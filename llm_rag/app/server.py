@@ -2,7 +2,7 @@ import os
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from utils import extract_text_from_pdf
+from utils import extract_text_from_pdf, get_completion
 
 app = FastAPI()
 UPLOAD_FOLDER = "uploaded_files"
@@ -49,7 +49,7 @@ async def chat(session_id: str = Form(...), user_input: str = Form(...)):
             content = f.read()
 
     # Dummy logic: replace with LLM logic
-    response = f"File has {len(content.splitlines())} lines. You asked: {user_input}"
-
+    # response = f"File has {len(content.splitlines())} lines. You asked: {user_input}"
+    response = get_completion(user_input)
     history["history"].append({"user": user_input, "bot": response})
     return {"response": response, "history": history["history"]}

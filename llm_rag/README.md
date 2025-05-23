@@ -18,5 +18,5 @@ cd app
 uvicorn server:app --reload --port 8000
 
 # Start Streamlit frontend
-streamlit run app.py
+streamlit run app.py --server.port 8501
 ```
