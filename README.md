@@ -9,8 +9,10 @@ Welcome to contribute.
 
 - [Text classification with BERT for twitter](./bert_text_classification/)
 - [LLM RAG for arxiv](./llm_rag/)
-- [LLM Agent for code](./llm_code_agent/)
+- [LLM Agent for code](./llm_agent/)
 - [LLM fine tuning](./llm_fine_tuning/)
 - [LLM text2sql](./chat_with_sql/)
+- [LLM application](./llm_app/)
+- [LLama tutorial](./llama_tutorials/)
 - [Time series lstm/transformer](./time_series/)
 - [Map with R/Python](./snippets/)
