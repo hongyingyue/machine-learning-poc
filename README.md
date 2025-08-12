@@ -12,6 +12,7 @@ Welcome to contribute.
 - [LLM Agent for code](./llm_agent/)
 - [LLM fine tuning](./llm_fine_tuning/)
 - [LLM text2sql](./chat_with_sql/)
+- [LLM batch inference fot multi nodes](./llm_batch_inference/)
 - [LLM application](./llm_app/)
 - [LLama tutorial](./llama_tutorials/)
 - [Time series lstm/transformer](./time_series/)
